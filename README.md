@@ -65,7 +65,7 @@ tabla `transporte.HojasRuta` (columnas derivadas de `formConfig.js`).
 
 Push a `main` dispara el workflow y deploya.
 
-## Pendientes de infraestructura (los resuelve el inge/admin)
+## Pendientes de infraestructura (los resuelve Infra)
 
 - [ ] Crear el App Service `hoja-ruta-offal` + Basic auth + publish profile.
 - [ ] Easy Auth (SSO Entra).
