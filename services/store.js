@@ -52,13 +52,13 @@ const memoria = [
   {
     Id: 2, fecha: '2026-08-04', numero_remito: 'R-0001824', chofer: 'Sin asignar',
     patente_tractor: 'AB123CD', destino: 'Buenos Aires', semi_lleva: 'Producto congelado',
-    semi_trae: 'Vacío', hielo: 12, tambor: 4, pallets: 18, agua_oxigenada: 2, tambor_miel: 0,
+    semi_trae: 'Vacío', hielo: 12, tambor: 4, pallets: 18, agua_oxigenada: 2, tambor_hiel: 0,
     CreadoPor: 'roberto.sanabria@offal.com.ar', CreadoEn: '2026-08-04T11:20:00Z',
   },
   {
     Id: 1, fecha: '2026-08-03', numero_remito: 'R-0001799', chofer: 'Sin asignar',
     patente_tractor: 'AA987ZZ', destino: 'Rosario', semi_lleva: 'Menudencias',
-    semi_trae: 'Insumos', hielo: 8, tambor: 6, pallets: 20, agua_oxigenada: 1, tambor_miel: 3,
+    semi_trae: 'Insumos', hielo: 8, tambor: 6, pallets: 20, agua_oxigenada: 1, tambor_hiel: 3,
     CreadoPor: 'roberto.sanabria@offal.com.ar', CreadoEn: '2026-08-03T09:05:00Z',
   },
 ];

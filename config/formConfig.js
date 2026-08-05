@@ -34,7 +34,7 @@ const CAMPOS = [
   { name: 'tambor', label: 'Tambor', type: 'number', required: true, sqlType: 'int' },
   { name: 'pallets', label: 'Pallets', type: 'number', required: true, sqlType: 'int' },
   { name: 'agua_oxigenada', label: 'Agua Oxigenada', type: 'number', required: true, sqlType: 'int' },
-  { name: 'tambor_miel', label: 'Tambor de Miel', type: 'number', required: true, sqlType: 'int' },
+  { name: 'tambor_hiel', label: 'Tambor de Hiel', type: 'number', required: true, sqlType: 'int' },
 ];
 
 // Metadatos del módulo.

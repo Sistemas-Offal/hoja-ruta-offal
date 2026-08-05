@@ -18,7 +18,7 @@ cambiar un tipo, se edita ese archivo (no hay que tocar el resto del código).
 
 Campos actuales (del Form original): Fecha, Número de Remito, Chofer (desplegable),
 Patente del Tractor, Destino, Semi Lleva, Semi Trae, Hielo, Tambor, Pallets, Agua
-Oxigenada, Tambor de Miel.
+Oxigenada, Tambor de Hiel.
 
 > **Pendiente:** la lista de **choferes** (`CHOFERES` en `formConfig.js`) es
 > provisoria — reemplazar por la real, o cambiar el campo para que lea de una tabla.
