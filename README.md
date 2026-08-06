@@ -56,8 +56,8 @@ tabla `transporte.HojasRuta` (columnas derivadas de `formConfig.js`).
 
 ## Deploy (Azure)
 
-1. Crear **App Service `hoja-ruta-offal`** (Node 20, Linux). Prender **Basic authentication**.
-2. Cargar el secret `AZUREAPPSERVICE_PUBLISHPROFILE_HOJARUTAOFFAL` (publish profile) en GitHub.
+1. App Service **`logistica`** (Node 20, Linux). Prender **Basic authentication**.
+2. Cargar el secret `AZUREAPPSERVICE_PUBLISHPROFILE_LOGISTICA` (publish profile) en GitHub.
 3. Habilitar **Easy Auth** contra el mismo registro de Entra (SSO con las otras apps).
 4. Cargar la app **`transporte`** en `acceso.Permisos` y poner
    `TRANSPORTE_REQUIRE_PERMISSION=true` para exigir permiso.
@@ -67,7 +67,7 @@ Push a `main` dispara el workflow y deploya.
 
 ## Pendientes de infraestructura (los resuelve el inge/admin)
 
-- [ ] Crear el App Service `hoja-ruta-offal` + Basic auth + publish profile.
+- [x] App Service `logistica` creado (Node 20, Linux). Falta Basic auth + publish profile (secret).
 - [ ] Easy Auth (SSO Entra).
 - [ ] Alta de la app `transporte` en `acceso.Permisos` + permisos por usuario.
 - [ ] Confirmar credenciales de la base compartida en el App Service.
